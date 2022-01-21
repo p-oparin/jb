@@ -1,0 +1,9 @@
+.app-buttons {
+
+  &__item {
+
+    &:not(:last-child) {
+      margin-right: 15px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+// swiper
+@import "../../../../../node_modules/swiper/swiper";
+.main-slider {
+  overflow: initial;
+}
+
+.swiper-slide {
+  max-width: 100%;
+  min-width: 80%;
+  width: 1110px;
+  cursor: grab;
+}
+
+.slider-item {
+  position: relative;
+  height: 485px;
+  border-radius: 24px;
+  padding: 40px 30px;
+  //background: var(--bs-white);
+  overflow: hidden;
+
+  &__content {
+    position: relative;
+    max-width: 50%;
+    z-index: 2;
+  }
+
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+}
