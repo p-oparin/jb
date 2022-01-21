@@ -1,0 +1,29 @@
+.btn {
+  background-color: $white;
+  background-image: none;
+}
+
+.btn-sm {
+  padding: 12px 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.btn-lg {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-weight: $font-weight-bold;
+}
+
+.btn-primary {
+  background-color: $primary;
+  color: $white;
+}
+.btn-secondary {
+  background-color: $body-color;
+  border-color: $body-color;
+  color: $white;
+}
+.btn-light {
+  border-color: #E2EBF0;
+  box-shadow: none;
+}
