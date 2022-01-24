@@ -46,17 +46,13 @@ section {
   height: 700px;
   padding: 40px;
   border-radius: 24px;
-  background-color: var(--bs-white);
+  background-color: #FAFAFA;
   overflow: hidden;
 
   &_blue {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
     height: 500px;
 
-    background: linear-gradient(121.59deg, #E2EBF0 24.46%, #CFD9DF 99.08%);
+    background-color: #E9E9E9;
   }
 
   &_brown {
@@ -66,6 +62,37 @@ section {
     align-items: flex-start;
 
     background: linear-gradient(121.59deg, #FDFCFB 0.95%, #E2D1C3 99.08%);
+  }
+
+  &__content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    z-index: 2;
+  }
+
+  &__illustration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+  }
+}
+.tole {
+
+  &__illustration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: auto;
+    width: 1137px;
+    max-width: 100%;
+    z-index: 1;
   }
 }
 
