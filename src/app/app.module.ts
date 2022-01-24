@@ -17,7 +17,7 @@ import { BurgerComponent } from './shared/components/burger/burger.component';
     BurgerComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
   ],
   providers: [],
