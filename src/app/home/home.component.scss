@@ -50,8 +50,6 @@ section {
   overflow: hidden;
 
   &_blue {
-    height: 500px;
-
     background: linear-gradient(121.59deg, #E2EBF0 24.46%, #CFD9DF 99.08%);
   }
 
@@ -62,6 +60,9 @@ section {
     align-items: flex-start;
 
     background: linear-gradient(121.59deg, #FDFCFB 0.95%, #E2D1C3 99.08%);
+  }
+  &_h500 {
+    height: 500px;
   }
 
   &__content {
@@ -80,18 +81,6 @@ section {
     right: 0;
     height: auto;
     width: 100%;
-    z-index: 1;
-  }
-}
-.tole {
-
-  &__illustration {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: auto;
-    width: 1137px;
-    max-width: 100%;
     z-index: 1;
   }
 }
