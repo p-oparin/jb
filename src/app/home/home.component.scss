@@ -19,6 +19,10 @@ section {
     width: 879px;
     height: auto;
     z-index: -1;
+
+    img {
+      width: 100%;
+    }
   }
 }
 .subtitle {
@@ -48,6 +52,19 @@ section {
   border-radius: 24px;
   background-color: #FAFAFA;
   overflow: hidden;
+
+  &:hover {
+
+    picture {
+      width: 110%;
+      right: -5%;
+
+      &.bg-phone {
+        width: 650px;
+        right: -25px;
+      }
+    }
+  }
 
   &_blue {
     background: linear-gradient(121.59deg, #E2EBF0 24.46%, #CFD9DF 99.08%);
@@ -82,6 +99,12 @@ section {
     height: auto;
     width: 100%;
     z-index: 1;
+    //will-change: width;
+    transition: all 500ms ease-out;
+
+    img {
+      width: 100%;
+    }
   }
 }
 
@@ -132,4 +155,10 @@ section {
   right: 0;
   width: 612px;
   height: auto;
+  //will-change: width;
+  transition: all 500ms ease-out;
+
+  img {
+    width: 100%;
+  }
 }

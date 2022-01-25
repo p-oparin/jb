@@ -3,8 +3,11 @@
     <h1 class="main__title">Откройте счет и ведите бизнес</h1>
     <p class="subtitle subtitle_main">{{ subtitle }}</p>
     <a href="" class="btn btn-primary">Открыть счет</a>
-
-    <img src="../../assets/img/main-bg.png" alt="" class="main__illustration" />
+  
+    <picture class="main__illustration">
+      <source srcset="../../assets/img/main-bg.webp" media="(min-width: 800px)" />
+      <img src="../../assets/img/main-bg.png" alt="" />
+    </picture>
   </div>
 </main>
 
@@ -44,7 +47,10 @@
             <a href="/tole" class="btn">Подключить</a>
           </div>
   
-          <img src="../../assets/img/tole-bg.png" class="product__illustration" alt="Jusan Tole">
+          <picture class="product__illustration">
+            <source srcset="../../assets/img/tole-bg.webp" type="image/webp" />
+            <img src="../../assets/img/tole-bg.png" loading="lazy" alt="Jusan Tole">
+          </picture>
         </div>
       </div>
 
@@ -56,7 +62,10 @@
             <a href="#" class="btn btn-secondary mt-5">Подать заявку</a>
           </div>
   
-          <img src="../../assets/img/reg-business-illustration.png" class="product__illustration" alt="Регистрация бизнеса">
+          <picture class="product__illustration">
+            <source srcset="../../assets/img/reg-business-illustration.webp" type="image/webp" />
+            <img src="../../assets/img/reg-business-illustration.png" loading="lazy" alt="Регистрация бизнеса">
+          </picture>
         </div>
       </div>
 
@@ -68,7 +77,10 @@
             <a href="#" class="btn btn-secondary mt-5">Подать заявку</a>
           </div>
   
-          <img src="../../assets/img/open-accuont.png" class="product__illustration" alt="Открытие счета">
+          <picture class="product__illustration">
+            <source srcset="../../assets/img/open-account.webp" type="image/webp" />
+            <img src="../../assets/img/open-account.png" loading="lazy" alt="Открытие счета">
+          </picture>
         </div>
       </div>
 
@@ -160,7 +172,11 @@
   
             <a href="/tole" class="btn">Подключить</a>
           </div>
-          <img src="../../assets/img/tariff-phone.png" alt="phone" class="bg-phone" />
+  
+          <picture class="bg-phone">
+            <source srcset="../../assets/img/tariff-phone.webp" type="image/webp" />
+            <img src="../../assets/img/tariff-phone.png" loading="lazy" alt="phone" />
+          </picture>
         </div>
       </div>
       <div class="col-12 col-md-4 mb-3">
