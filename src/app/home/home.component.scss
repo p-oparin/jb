@@ -94,8 +94,9 @@ section {
 
   &__illustration {
     position: absolute;
-    bottom: -5%;
+    bottom: 0;
     right: 0;
+    margin-bottom: -60px;
     height: auto;
     width: 100%;
     z-index: 1;
